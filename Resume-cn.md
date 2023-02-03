@@ -59,7 +59,7 @@
 > React | MobX |Antd | CodeMirror | Node.js | Express| Axios | MongoDB| Mongoose | Gulp | Rollup | AWS | Docker
 
 -   牵头负责客户需求对接，独立完成技术选型和前端架构搭建，块后端负责人产品上线全流程，并持续集成和优化。
--   基于 Axios 结合 csrf 对 API 进行和封装进行二次封装——————————————
+-   基于 Axios 结合 csrf 对 API 进行和封装进行二次封装(适配器模式、策略模式和外观模式等设计模式）
 -   基于业务场景封装 node 层中间件对 api 进行标准化——————————————
 -   统计数据采用 MongoDB, CI / CD GitAction——————————————————————
 
