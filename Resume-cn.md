@@ -82,7 +82,7 @@
 
 > Moody’s 为全球金融投资者打造的新一代门户网站
 
-> React | Redux | Highcharts | Axios | Node.js | SheetJS| Hapi |Gulp | webpack | Cypress
+> React | Redux | Styled-components | Highcharts | Axios | Node.js | SheetJS| Hapi |Gulp | webpack | Cypress
 
 <!-- 为解决组件库版本升级导致的应用层样式覆盖失效的问题，提出采用 Styled-Components 对组件重构，大幅度提高了应用层 UI 测试用例的稳定性 -->
 
