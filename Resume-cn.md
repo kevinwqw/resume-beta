@@ -73,8 +73,7 @@
 
 ### **Credit View** (Moody’s) | 核心开发 | 2018.07 - 2021.05
 
-> Moody’s 为全球金融投资者打造的新一代门户网站，项目采用微前端 + 微服务架构，由 10+团队跨国合作研发
-> 链接:www.moodys.com
+> Moody’s 为全球金融投资者打造的新一代门户网站，项目采用微前端 + 微服务架构，由 10+团队跨国合作研发。链接:www.moodys.com
 
 > React | Redux | Node.js | Hapi | Axios | Redis | Kong | Webpack | Cypress
 
