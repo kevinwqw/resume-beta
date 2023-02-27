@@ -11,10 +11,10 @@
 
 ## **技能介绍**
 
--   熟练掌握 JavaScript (ES6+) / CSS3 (Less) | HTML5
--   熟练掌握 React 相关技术栈，熟悉 React 底层原理，了解 Vue 框架并具备大型项目经验
+-   熟练掌握 JavaScript (ES6+) | CSS3 (Less) | HTML5
+-   熟练掌握 React 相关技术栈，熟悉 Vue 框架并具备大型项目经验
 -   熟练掌握 Node.js 与 hapi / Express 框架，擅长应用服务搭建与中间件开发，熟悉 MongoDB
--   熟悉 HTTP 和 TCP / IP 协议特性，对浏览器底层原理和运行机制有过研究与分享
+-   熟悉 HTTP 和 TCP / IP 协议特性，对浏览器底层原理和运行机制有深刻理解
 -   熟悉 Webpack、Rollup 和 Gulp 构建工具，对前端工程化和模块化有深入理解并具备大型项目构建和优化经验，了解 CI / CD 与 AWS 云服务
 -   熟悉数据结构和设计模式，对 OOP 有深入理解，具备大型项目前端性能优化经验
 
@@ -43,12 +43,12 @@
 
 > 聚焦于中国金融市场，基于 28,000 多家主体的财报数据为银行、保险和券商等客户提供行业分析、信用观点评分、债券估值和 ESG 等金融分析工具的风险分析平台
 
-> React | MobX | Highcharts | Hapi | Axios | Rollup | Jest
+> React | MobX | Highcharts | Node.js | hapi| Gulp | Rollup | Jest | Redis | AWS | Docker
 
 -   负责 “行业分析” 和 “ESG” 两大核心业务模块的前端开发，与市场团队沟通、分析业务需求并协助 UX 团队优化设计，提供最优的数据可视化方案
 -   参与前端架构设计与搭建，封装基于 React + MobX 的组件开发模板，优化 React 同构渲染框架，解决服务端与客户端组件注脱水、静态资源加载与数据缓存等问题
--   基于 Highcharts 图形库结合 SVG、CSS 和 Canvas 封数据可视化组件，解决各类特殊业务场景的数据展示和交互需求
--   设计 Layout 框架模板，实现配置化动态布局，解耦公共组件与业务模块，减少业务模块间的样式差异
+-   基于 Highcharts 图形库结合 SVG、CSS 和 Canvas 定制化封装数据可视化组件，解决各类特殊业务场景的数据展示和交互需求
+-   设计并开发 Layout 渲染模板，解耦公共组件与业务模块，支持动态配置页面布局和局部刷新，减少业务模块间的样式布局差异并提高页面性能
 -   集成 Okta 认证服务并封装登录公共组件，开发身份验证、用户权限管理等配套 Node 层框架服务
 
 ### **API Portal** (Moody’s) | 项目负责人 | 2022.02 - 2022.08
@@ -57,11 +57,10 @@
 
 > React | MobX | Antd | CodeMirror | Express | Axios | Gulp | Rollup | AWS | Docker
 
--   负责客户需求对接、技术选型、前端架构搭建以及生产环境部署全流程，对接各业务模块后端负责人，完成 API 的整合与集成
--   独自完成前端全部业务功能的开发，提供包括 API 分权展示、接口数据在 CodeMirror 预览以及多类型文件导出等功能，并集成 Walkme 插件实现用户指引
--   Node 层基于 Express 框架搭建 BFF 架构，开发用户鉴权、缓存、日志采集等中间件，在 BFF 层完成请求组装与响应数据标准化
--   基于 GitHub Actions 编写 Workflow 实现版本发布和 Docker 部署等 CI / CD 流程
-<!-- 实现非结构化数据解析：编写正则表达式，对非结构化数据进行重组，实现在 CodeMirror 中的结构化展示与关键字高亮提示 -->
+-   作为项目负责人完成需求对接、技术选型、前端架构搭建以及生产环境部署全流程
+-   独立完成前端全部业务功能的开发，提供包括 Open API 权限控制、OAuth Token 获取与更新、数据预览以及 PDF、Excel 等的文件下载功能，并基于 MongoDB 开发数据统计服务接口
+-   基于 Express 框架搭建 BFF 架构，二次封装 Axios，在 BFF 层实现服务端请求组装与响应数据处理，开发用户鉴权、数据缓存、日志监控等中间件
+-   配置 Github Actions 实现版本发布与 Docker 部署等 CI / CD 流程
 
 ### **Credit View** (Moody’s) | 核心开发 | 2018.07 - 2021.05
 
